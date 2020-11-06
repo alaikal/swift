@@ -1,0 +1,31 @@
+var friendlyWelcome = "Hello!"
+friendlyWelcome = "Bonjour!"
+print(friendlyWelcome)
+
+print(1.0, 2.0, 3.0, 4.0, 5.0, separator: " ... ")
+for n in 1...5 {
+    print(n, terminator: "")
+}
+
+var str = "Hello, playground"; print(str)
+
+let paddedDouble = 000123.456                
+print(paddedDouble)
+
+let twoThousand: UInt16 = 2_000
+let one: UInt8 = 1
+let twoThousandAndOne = twoThousand + UInt16(one)
+print(twoThousandAndOne)
+
+let three = 3
+let pointOneFourOneFiveNine = 0.14159
+let pi = Double(three) + pointOneFourOneFiveNine
+print(pi)
+
+let orangesAreOrange = true
+let turnipsAreDelicious = false
+if turnipsAreDelicious {
+   print("Mmm, lobaknya lezat!")
+} else {
+   print("Eww, lobak itu mengerikan.")
+}
